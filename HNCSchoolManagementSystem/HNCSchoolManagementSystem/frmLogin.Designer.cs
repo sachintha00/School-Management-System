@@ -32,7 +32,7 @@
             this.ElipsCorner = new Guna.UI.WinForms.GunaElipse(this.components);
             this.btnClose = new Guna.UI2.WinForms.Guna2ControlBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.gunaTextBox1 = new Guna.UI.WinForms.GunaTextBox();
+            this.txtUserName = new Guna.UI.WinForms.GunaTextBox();
             this.SuspendLayout();
             // 
             // ElipsCorner
@@ -51,13 +51,14 @@
             this.btnClose.IconColor = System.Drawing.Color.White;
             this.btnClose.Location = new System.Drawing.Point(856, 0);
             this.btnClose.Name = "btnClose";
+            this.btnClose.PressedDepth = 0;
             this.btnClose.ShadowDecoration.Parent = this.btnClose;
             this.btnClose.Size = new System.Drawing.Size(83, 46);
             this.btnClose.TabIndex = 0;
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(44)))), ((int)(((byte)(72)))));
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
@@ -65,21 +66,23 @@
             this.guna2Panel1.Size = new System.Drawing.Size(418, 596);
             this.guna2Panel1.TabIndex = 1;
             // 
-            // gunaTextBox1
+            // txtUserName
             // 
-            this.gunaTextBox1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(44)))), ((int)(((byte)(72)))));
-            this.gunaTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(44)))), ((int)(((byte)(72)))));
-            this.gunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaTextBox1.FocusedBaseColor = System.Drawing.Color.White;
-            this.gunaTextBox1.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.gunaTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaTextBox1.Location = new System.Drawing.Point(556, 274);
-            this.gunaTextBox1.Name = "gunaTextBox1";
-            this.gunaTextBox1.PasswordChar = '\0';
-            this.gunaTextBox1.SelectedText = "";
-            this.gunaTextBox1.Size = new System.Drawing.Size(253, 36);
-            this.gunaTextBox1.TabIndex = 2;
+            this.txtUserName.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(44)))), ((int)(((byte)(72)))));
+            this.txtUserName.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(44)))), ((int)(((byte)(72)))));
+            this.txtUserName.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtUserName.FocusedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(44)))), ((int)(((byte)(72)))));
+            this.txtUserName.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(38)))), ((int)(((byte)(68)))));
+            this.txtUserName.FocusedForeColor = System.Drawing.SystemColors.ControlDark;
+            this.txtUserName.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUserName.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.txtUserName.Location = new System.Drawing.Point(514, 259);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.PasswordChar = '\0';
+            this.txtUserName.SelectedText = "";
+            this.txtUserName.Size = new System.Drawing.Size(305, 53);
+            this.txtUserName.TabIndex = 2;
+            this.txtUserName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // frmLogin
             // 
@@ -87,7 +90,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(32)))), ((int)(((byte)(57)))));
             this.ClientSize = new System.Drawing.Size(940, 596);
-            this.Controls.Add(this.gunaTextBox1);
+            this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.btnClose);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -103,7 +106,7 @@
         private Guna.UI.WinForms.GunaElipse ElipsCorner;
         private Guna.UI2.WinForms.Guna2ControlBox btnClose;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI.WinForms.GunaTextBox gunaTextBox1;
+        private Guna.UI.WinForms.GunaTextBox txtUserName;
     }
 }
 
