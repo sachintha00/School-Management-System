@@ -1,0 +1,13 @@
+E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\bin\Debug\HNCSchoolManagementSystem.exe.config
+E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\bin\Debug\HNCSchoolManagementSystem.exe
+E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\bin\Debug\HNCSchoolManagementSystem.pdb
+E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\bin\Debug\Guna.UI.dll
+E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\bin\Debug\Guna.UI2.dll
+E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\obj\Debug\HNCSchoolManagementSystem.csprojAssemblyReference.cache
+E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\obj\Debug\HNCSchoolManagementSystem.Form1.resources
+E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\obj\Debug\HNCSchoolManagementSystem.Properties.Resources.resources
+E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\obj\Debug\HNCSchoolManagementSystem.csproj.GenerateResource.cache
+E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\obj\Debug\HNCSchoolManagementSystem.csproj.CoreCompileInputs.cache
+E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\obj\Debug\HNCSchoolManagementSystem.csproj.CopyComplete
+E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\obj\Debug\HNCSchoolManagementSystem.exe
+E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\obj\Debug\HNCSchoolManagementSystem.pdb
