@@ -16,5 +16,10 @@ namespace HNCSchoolManagementSystem
         {
             InitializeComponent();
         }
+
+        private void txtUserName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -35,7 +35,9 @@
             this.txtUserName = new Guna.UI.WinForms.GunaTextBox();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaTextBox1 = new Guna.UI.WinForms.GunaTextBox();
+            this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
+            this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // ElipsCorner
@@ -62,6 +64,8 @@
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(44)))), ((int)(((byte)(72)))));
+            this.guna2Panel1.Controls.Add(this.gunaLabel4);
+            this.guna2Panel1.Controls.Add(this.gunaLabel3);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
@@ -79,13 +83,14 @@
             this.txtUserName.FocusedForeColor = System.Drawing.SystemColors.ControlDark;
             this.txtUserName.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUserName.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.txtUserName.Location = new System.Drawing.Point(517, 295);
+            this.txtUserName.Location = new System.Drawing.Point(527, 290);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.PasswordChar = '\0';
             this.txtUserName.SelectedText = "";
-            this.txtUserName.Size = new System.Drawing.Size(305, 53);
+            this.txtUserName.Size = new System.Drawing.Size(287, 41);
             this.txtUserName.TabIndex = 2;
             this.txtUserName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtUserName.TextChanged += new System.EventHandler(this.txtUserName_TextChanged);
             // 
             // gunaLabel1
             // 
@@ -109,23 +114,27 @@
             this.gunaLabel2.TabIndex = 4;
             this.gunaLabel2.Text = "Login into your HNC Dashboard";
             // 
-            // gunaTextBox1
+            // gunaLabel3
             // 
-            this.gunaTextBox1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(44)))), ((int)(((byte)(72)))));
-            this.gunaTextBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(44)))), ((int)(((byte)(72)))));
-            this.gunaTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.gunaTextBox1.FocusedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(44)))), ((int)(((byte)(72)))));
-            this.gunaTextBox1.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(38)))), ((int)(((byte)(68)))));
-            this.gunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlDark;
-            this.gunaTextBox1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaTextBox1.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.gunaTextBox1.Location = new System.Drawing.Point(517, 385);
-            this.gunaTextBox1.Name = "gunaTextBox1";
-            this.gunaTextBox1.PasswordChar = '\0';
-            this.gunaTextBox1.SelectedText = "";
-            this.gunaTextBox1.Size = new System.Drawing.Size(305, 53);
-            this.gunaTextBox1.TabIndex = 2;
-            this.gunaTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.gunaLabel3.AutoSize = true;
+            this.gunaLabel3.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.gunaLabel3.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel3.Location = new System.Drawing.Point(130, 133);
+            this.gunaLabel3.Name = "gunaLabel3";
+            this.gunaLabel3.Size = new System.Drawing.Size(125, 46);
+            this.gunaLabel3.TabIndex = 3;
+            this.gunaLabel3.Text = "SHOW";
+            // 
+            // gunaLabel4
+            // 
+            this.gunaLabel4.AutoSize = true;
+            this.gunaLabel4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.gunaLabel4.ForeColor = System.Drawing.Color.White;
+            this.gunaLabel4.Location = new System.Drawing.Point(53, 390);
+            this.gunaLabel4.Name = "gunaLabel4";
+            this.gunaLabel4.Size = new System.Drawing.Size(312, 28);
+            this.gunaLabel4.TabIndex = 3;
+            this.gunaLabel4.Text = "Collaboration. On the dark side.";
             // 
             // frmLogin
             // 
@@ -135,7 +144,6 @@
             this.ClientSize = new System.Drawing.Size(940, 620);
             this.Controls.Add(this.gunaLabel2);
             this.Controls.Add(this.gunaLabel1);
-            this.Controls.Add(this.gunaTextBox1);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.btnClose);
@@ -143,6 +151,8 @@
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.guna2Panel1.ResumeLayout(false);
+            this.guna2Panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -156,7 +166,8 @@
         private Guna.UI.WinForms.GunaTextBox txtUserName;
         private Guna.UI.WinForms.GunaLabel gunaLabel2;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
-        private Guna.UI.WinForms.GunaTextBox gunaTextBox1;
+        private Guna.UI.WinForms.GunaLabel gunaLabel4;
+        private Guna.UI.WinForms.GunaLabel gunaLabel3;
     }
 }
 
