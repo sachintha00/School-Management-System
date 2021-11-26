@@ -29,21 +29,25 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.ElipsCorner = new Guna.UI.WinForms.GunaElipse(this.components);
             this.btnClose = new Guna.UI2.WinForms.Guna2ControlBox();
             this.pnlSide = new Guna.UI2.WinForms.Guna2Panel();
+            this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.txtUserName = new Guna.UI.WinForms.GunaTextBox();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel6 = new Guna.UI.WinForms.GunaLabel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.gunaTextBox1 = new Guna.UI.WinForms.GunaTextBox();
             this.drag1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.drag2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.gunaLabel7 = new Guna.UI.WinForms.GunaLabel();
             this.pnlSide.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // ElipsCorner
@@ -73,6 +77,8 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlSide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(44)))), ((int)(((byte)(72)))));
+            this.pnlSide.Controls.Add(this.guna2PictureBox1);
+            this.pnlSide.Controls.Add(this.gunaLabel7);
             this.pnlSide.Controls.Add(this.gunaLabel4);
             this.pnlSide.Controls.Add(this.gunaLabel3);
             this.pnlSide.Location = new System.Drawing.Point(0, 0);
@@ -80,6 +86,35 @@
             this.pnlSide.ShadowDecoration.Parent = this.pnlSide;
             this.pnlSide.Size = new System.Drawing.Size(503, 663);
             this.pnlSide.TabIndex = 1;
+            // 
+            // gunaLabel4
+            // 
+            this.gunaLabel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaLabel4.AutoSize = true;
+            this.gunaLabel4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.gunaLabel4.ForeColor = System.Drawing.Color.Gainsboro;
+            this.gunaLabel4.Location = new System.Drawing.Point(95, 487);
+            this.gunaLabel4.Name = "gunaLabel4";
+            this.gunaLabel4.Size = new System.Drawing.Size(312, 28);
+            this.gunaLabel4.TabIndex = 3;
+            this.gunaLabel4.Text = "Collaboration. On the dark side.";
+            // 
+            // gunaLabel3
+            // 
+            this.gunaLabel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaLabel3.AutoSize = true;
+            this.gunaLabel3.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
+            this.gunaLabel3.ForeColor = System.Drawing.Color.Gainsboro;
+            this.gunaLabel3.Location = new System.Drawing.Point(146, 61);
+            this.gunaLabel3.Name = "gunaLabel3";
+            this.gunaLabel3.Size = new System.Drawing.Size(200, 92);
+            this.gunaLabel3.TabIndex = 3;
+            this.gunaLabel3.Text = "SMART\r\nS C H O O L";
+            this.gunaLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtUserName
             // 
@@ -123,34 +158,6 @@
             this.gunaLabel2.Size = new System.Drawing.Size(255, 23);
             this.gunaLabel2.TabIndex = 4;
             this.gunaLabel2.Text = "Login into your HNC Dashboard";
-            // 
-            // gunaLabel3
-            // 
-            this.gunaLabel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaLabel3.AutoSize = true;
-            this.gunaLabel3.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel3.ForeColor = System.Drawing.Color.Gainsboro;
-            this.gunaLabel3.Location = new System.Drawing.Point(189, 133);
-            this.gunaLabel3.Name = "gunaLabel3";
-            this.gunaLabel3.Size = new System.Drawing.Size(125, 46);
-            this.gunaLabel3.TabIndex = 3;
-            this.gunaLabel3.Text = "SHOW";
-            // 
-            // gunaLabel4
-            // 
-            this.gunaLabel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.gunaLabel4.AutoSize = true;
-            this.gunaLabel4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
-            this.gunaLabel4.ForeColor = System.Drawing.Color.Gainsboro;
-            this.gunaLabel4.Location = new System.Drawing.Point(95, 390);
-            this.gunaLabel4.Name = "gunaLabel4";
-            this.gunaLabel4.Size = new System.Drawing.Size(312, 28);
-            this.gunaLabel4.TabIndex = 3;
-            this.gunaLabel4.Text = "Collaboration. On the dark side.";
             // 
             // gunaLabel5
             // 
@@ -219,6 +226,33 @@
             // 
             this.drag2.TargetControl = this;
             // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.Location = new System.Drawing.Point(119, 233);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
+            this.guna2PictureBox1.Size = new System.Drawing.Size(265, 220);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.TabIndex = 4;
+            this.guna2PictureBox1.TabStop = false;
+            // 
+            // gunaLabel7
+            // 
+            this.gunaLabel7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gunaLabel7.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.gunaLabel7.ForeColor = System.Drawing.Color.DarkGray;
+            this.gunaLabel7.Location = new System.Drawing.Point(63, 520);
+            this.gunaLabel7.Name = "gunaLabel7";
+            this.gunaLabel7.Size = new System.Drawing.Size(377, 86);
+            this.gunaLabel7.TabIndex = 3;
+            this.gunaLabel7.Text = "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used" +
+    " to demonstrate the visual form of a document or a typeface without relying on m" +
+    "eaningful content";
+            this.gunaLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -241,6 +275,7 @@
             this.Load += new System.EventHandler(this.frmLogin_Load);
             this.pnlSide.ResumeLayout(false);
             this.pnlSide.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -262,6 +297,8 @@
         private Guna.UI.WinForms.GunaTextBox gunaTextBox1;
         private Guna.UI2.WinForms.Guna2DragControl drag1;
         private Guna.UI2.WinForms.Guna2DragControl drag2;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Guna.UI.WinForms.GunaLabel gunaLabel7;
     }
 }
 
