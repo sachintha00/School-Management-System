@@ -54,7 +54,7 @@
             this.btnClose.HoverState.IconColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnClose.HoverState.Parent = this.btnClose;
             this.btnClose.IconColor = System.Drawing.SystemColors.ControlDark;
-            this.btnClose.Location = new System.Drawing.Point(856, 0);
+            this.btnClose.Location = new System.Drawing.Point(884, 0);
             this.btnClose.Name = "btnClose";
             this.btnClose.PressedDepth = 0;
             this.btnClose.ShadowDecoration.Parent = this.btnClose;
@@ -63,14 +63,16 @@
             // 
             // guna2Panel1
             // 
+            this.guna2Panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(44)))), ((int)(((byte)(72)))));
             this.guna2Panel1.Controls.Add(this.gunaLabel4);
             this.guna2Panel1.Controls.Add(this.gunaLabel3);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(418, 620);
+            this.guna2Panel1.Size = new System.Drawing.Size(446, 648);
             this.guna2Panel1.TabIndex = 1;
             // 
             // txtUserName
@@ -83,7 +85,7 @@
             this.txtUserName.FocusedForeColor = System.Drawing.SystemColors.ControlDark;
             this.txtUserName.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUserName.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.txtUserName.Location = new System.Drawing.Point(527, 290);
+            this.txtUserName.Location = new System.Drawing.Point(557, 329);
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.PasswordChar = '\0';
             this.txtUserName.SelectedText = "";
@@ -95,11 +97,11 @@
             // gunaLabel1
             // 
             this.gunaLabel1.AutoSize = true;
-            this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold);
+            this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI", 23F, System.Drawing.FontStyle.Bold);
             this.gunaLabel1.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel1.Location = new System.Drawing.Point(506, 150);
+            this.gunaLabel1.Location = new System.Drawing.Point(548, 162);
             this.gunaLabel1.Name = "gunaLabel1";
-            this.gunaLabel1.Size = new System.Drawing.Size(327, 57);
+            this.gunaLabel1.Size = new System.Drawing.Size(304, 52);
             this.gunaLabel1.TabIndex = 3;
             this.gunaLabel1.Text = "Welcome Back!";
             // 
@@ -108,7 +110,7 @@
             this.gunaLabel2.AutoSize = true;
             this.gunaLabel2.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.gunaLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(126)))), ((int)(((byte)(126)))), ((int)(((byte)(126)))));
-            this.gunaLabel2.Location = new System.Drawing.Point(537, 205);
+            this.gunaLabel2.Location = new System.Drawing.Point(573, 223);
             this.gunaLabel2.Name = "gunaLabel2";
             this.gunaLabel2.Size = new System.Drawing.Size(255, 23);
             this.gunaLabel2.TabIndex = 4;
@@ -116,10 +118,13 @@
             // 
             // gunaLabel3
             // 
+            this.gunaLabel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.gunaLabel3.AutoSize = true;
             this.gunaLabel3.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold);
             this.gunaLabel3.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel3.Location = new System.Drawing.Point(130, 133);
+            this.gunaLabel3.Location = new System.Drawing.Point(161, 133);
             this.gunaLabel3.Name = "gunaLabel3";
             this.gunaLabel3.Size = new System.Drawing.Size(125, 46);
             this.gunaLabel3.TabIndex = 3;
@@ -127,10 +132,13 @@
             // 
             // gunaLabel4
             // 
+            this.gunaLabel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.gunaLabel4.AutoSize = true;
             this.gunaLabel4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.gunaLabel4.ForeColor = System.Drawing.Color.White;
-            this.gunaLabel4.Location = new System.Drawing.Point(53, 390);
+            this.gunaLabel4.Location = new System.Drawing.Point(67, 390);
             this.gunaLabel4.Name = "gunaLabel4";
             this.gunaLabel4.Size = new System.Drawing.Size(312, 28);
             this.gunaLabel4.TabIndex = 3;
@@ -141,7 +149,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(32)))), ((int)(((byte)(57)))));
-            this.ClientSize = new System.Drawing.Size(940, 620);
+            this.ClientSize = new System.Drawing.Size(968, 649);
             this.Controls.Add(this.gunaLabel2);
             this.Controls.Add(this.gunaLabel1);
             this.Controls.Add(this.txtUserName);
