@@ -46,9 +46,9 @@
             this.btnClose.FillColor = System.Drawing.Color.Transparent;
             this.btnClose.HoverState.BorderColor = System.Drawing.Color.Transparent;
             this.btnClose.HoverState.FillColor = System.Drawing.Color.Transparent;
-            this.btnClose.HoverState.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(44)))), ((int)(((byte)(72)))));
+            this.btnClose.HoverState.IconColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnClose.HoverState.Parent = this.btnClose;
-            this.btnClose.IconColor = System.Drawing.Color.White;
+            this.btnClose.IconColor = System.Drawing.SystemColors.ControlDark;
             this.btnClose.Location = new System.Drawing.Point(856, 0);
             this.btnClose.Name = "btnClose";
             this.btnClose.PressedDepth = 0;
