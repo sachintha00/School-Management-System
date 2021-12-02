@@ -63,5 +63,15 @@ namespace HNCSchoolManagementSystem
                 Properties.Settings.Default.Save();
             }
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            rememberMe();
+            if(txtUsername.Text == "admin" && txtPassword.Text == "admin")
+            {
+                this.Hide();
+                new frmAdminMain().Show();
+            }
+        }
     }
 }

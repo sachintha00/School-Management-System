@@ -15,6 +15,8 @@ namespace HNCSchoolManagementSystem
         public frmAdminMain()
         {
             InitializeComponent();
+            MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void gunaLabel6_Click(object sender, EventArgs e)

@@ -181,6 +181,7 @@
             this.btnLogin.Size = new System.Drawing.Size(145, 52);
             this.btnLogin.TabIndex = 6;
             this.btnLogin.Text = "Login";
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // drag1
             // 
