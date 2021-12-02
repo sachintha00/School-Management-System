@@ -127,6 +127,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(189, 45);
             this.guna2Button1.TabIndex = 0;
             this.guna2Button1.Text = "Dashboard";
+            this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // drag1
             // 
@@ -162,6 +163,7 @@
             this.guna2Button2.Size = new System.Drawing.Size(189, 45);
             this.guna2Button2.TabIndex = 1;
             this.guna2Button2.Text = "Accounts";
+            this.guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // frmAdminMain
             // 
