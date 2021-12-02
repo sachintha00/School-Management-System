@@ -26,5 +26,15 @@ namespace HNCSchoolManagementSystem
         {
 
         }
+
+        private void btnPasswordShow_MouseDown(object sender, MouseEventArgs e)
+        {
+            txtPassword.PasswordChar = '\0';
+        }
+
+        private void btnPasswordShow_MouseUp(object sender, MouseEventArgs e)
+        {
+            txtPassword.PasswordChar = '●';
+        }
     }
 }
