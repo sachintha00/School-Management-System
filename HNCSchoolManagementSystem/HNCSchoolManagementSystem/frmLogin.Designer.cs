@@ -246,7 +246,7 @@
             this.txtPassword.Location = new System.Drawing.Point(622, 407);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.PasswordChar = '\0';
+            this.txtPassword.PasswordChar = '●';
             this.txtPassword.PlaceholderForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.txtPassword.PlaceholderText = "Password";
             this.txtPassword.SelectedText = "";
@@ -254,11 +254,11 @@
             this.txtPassword.Size = new System.Drawing.Size(292, 48);
             this.txtPassword.TabIndex = 7;
             this.txtPassword.TextOffset = new System.Drawing.Point(10, 0);
-            this.txtPassword.UseSystemPasswordChar = true;
             // 
             // btnPasswordShow
             // 
             this.btnPasswordShow.BackColor = System.Drawing.Color.Transparent;
+            this.btnPasswordShow.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPasswordShow.Image = ((System.Drawing.Image)(resources.GetObject("btnPasswordShow.Image")));
             this.btnPasswordShow.ImageActive = null;
             this.btnPasswordShow.Location = new System.Drawing.Point(921, 417);
