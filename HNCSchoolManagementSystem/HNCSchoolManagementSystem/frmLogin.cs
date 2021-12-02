@@ -15,6 +15,17 @@ namespace HNCSchoolManagementSystem
         public frmLogin()
         {
             InitializeComponent();
+            LoadCredentials();
+        }
+
+        void LoadCredentials()
+        {
+            if (Properties.Settings.Default.Username != string.Empty)
+            {
+                txtUsername.Text = Properties.Settings.Default.Username;
+                txtPassword.Text = Properties.Settings.Default.Password;
+                checkRemember.Checked = true;
+            }
         }
 
         private void txtUserName_TextChanged(object sender, EventArgs e)
@@ -35,6 +46,22 @@ namespace HNCSchoolManagementSystem
         private void btnPasswordShow_MouseUp(object sender, MouseEventArgs e)
         {
             txtPassword.PasswordChar = '●';
+        }
+
+        private void rememberMe()
+        {
+            if (checkRemember.Checked == false)
+            {
+                Properties.Settings.Default.Username = "";
+                Properties.Settings.Default.Password = "";
+                Properties.Settings.Default.Save();
+            }
+            else if (checkRemember.Checked == true)
+            {
+                Properties.Settings.Default.Username = txtUsername.Text;
+                Properties.Settings.Default.Password = txtPassword.Text;
+                Properties.Settings.Default.Save();
+            }
         }
     }
 }

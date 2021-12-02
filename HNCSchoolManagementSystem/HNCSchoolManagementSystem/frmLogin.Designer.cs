@@ -39,12 +39,13 @@
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
             this.drag1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.drag2 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.txtUsername = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtPassword = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnPasswordShow = new Bunifu.Framework.UI.BunifuImageButton();
+            this.checkRemember = new Guna.UI.WinForms.GunaCheckBox();
             this.pnlSide.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPasswordShow)).BeginInit();
@@ -165,21 +166,21 @@
             this.gunaLabel2.TabIndex = 4;
             this.gunaLabel2.Text = "Login into your HNC Dashboard";
             // 
-            // guna2Button1
+            // btnLogin
             // 
-            this.guna2Button1.BorderRadius = 20;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(131)))), ((int)(((byte)(213)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(696, 494);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(145, 52);
-            this.guna2Button1.TabIndex = 6;
-            this.guna2Button1.Text = "Login";
+            this.btnLogin.BorderRadius = 20;
+            this.btnLogin.CheckedState.Parent = this.btnLogin;
+            this.btnLogin.CustomImages.Parent = this.btnLogin;
+            this.btnLogin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(131)))), ((int)(((byte)(213)))));
+            this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnLogin.ForeColor = System.Drawing.Color.White;
+            this.btnLogin.HoverState.Parent = this.btnLogin;
+            this.btnLogin.Location = new System.Drawing.Point(696, 497);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.ShadowDecoration.Parent = this.btnLogin;
+            this.btnLogin.Size = new System.Drawing.Size(145, 52);
+            this.btnLogin.TabIndex = 6;
+            this.btnLogin.Text = "Login";
             // 
             // drag1
             // 
@@ -210,7 +211,7 @@
             this.txtUsername.HoverState.Parent = this.txtUsername;
             this.txtUsername.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtUsername.IconLeft")));
             this.txtUsername.IconLeftOffset = new System.Drawing.Point(10, 0);
-            this.txtUsername.Location = new System.Drawing.Point(622, 341);
+            this.txtUsername.Location = new System.Drawing.Point(622, 317);
             this.txtUsername.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.PasswordChar = '\0';
@@ -243,7 +244,7 @@
             this.txtPassword.HoverState.Parent = this.txtPassword;
             this.txtPassword.IconLeft = ((System.Drawing.Image)(resources.GetObject("txtPassword.IconLeft")));
             this.txtPassword.IconLeftOffset = new System.Drawing.Point(10, 0);
-            this.txtPassword.Location = new System.Drawing.Point(622, 407);
+            this.txtPassword.Location = new System.Drawing.Point(622, 383);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '●';
@@ -261,7 +262,7 @@
             this.btnPasswordShow.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPasswordShow.Image = ((System.Drawing.Image)(resources.GetObject("btnPasswordShow.Image")));
             this.btnPasswordShow.ImageActive = null;
-            this.btnPasswordShow.Location = new System.Drawing.Point(921, 417);
+            this.btnPasswordShow.Location = new System.Drawing.Point(921, 393);
             this.btnPasswordShow.Name = "btnPasswordShow";
             this.btnPasswordShow.Size = new System.Drawing.Size(26, 28);
             this.btnPasswordShow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -271,16 +272,31 @@
             this.btnPasswordShow.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnPasswordShow_MouseDown);
             this.btnPasswordShow.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnPasswordShow_MouseUp);
             // 
+            // checkRemember
+            // 
+            this.checkRemember.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(201)))), ((int)(((byte)(199)))));
+            this.checkRemember.CheckedOffColor = System.Drawing.Color.Gray;
+            this.checkRemember.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(131)))), ((int)(((byte)(213)))));
+            this.checkRemember.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(201)))), ((int)(((byte)(199)))));
+            this.checkRemember.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkRemember.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(3)))), ((int)(((byte)(131)))), ((int)(((byte)(213)))));
+            this.checkRemember.Location = new System.Drawing.Point(627, 448);
+            this.checkRemember.Name = "checkRemember";
+            this.checkRemember.Size = new System.Drawing.Size(133, 21);
+            this.checkRemember.TabIndex = 9;
+            this.checkRemember.Text = "Remember Me";
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(32)))), ((int)(((byte)(57)))));
             this.ClientSize = new System.Drawing.Size(1025, 651);
+            this.Controls.Add(this.checkRemember);
             this.Controls.Add(this.btnPasswordShow);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
-            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.gunaLabel2);
             this.Controls.Add(this.gunaLabel1);
             this.Controls.Add(this.pnlSide);
@@ -308,7 +324,7 @@
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
         private Guna.UI.WinForms.GunaLabel gunaLabel4;
         private Guna.UI.WinForms.GunaLabel gunaLabel3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnLogin;
         private Guna.UI2.WinForms.Guna2DragControl drag1;
         private Guna.UI2.WinForms.Guna2DragControl drag2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
@@ -316,6 +332,7 @@
         private Guna.UI2.WinForms.Guna2TextBox txtUsername;
         private Guna.UI2.WinForms.Guna2TextBox txtPassword;
         private Bunifu.Framework.UI.BunifuImageButton btnPasswordShow;
+        private Guna.UI.WinForms.GunaCheckBox checkRemember;
     }
 }
 
