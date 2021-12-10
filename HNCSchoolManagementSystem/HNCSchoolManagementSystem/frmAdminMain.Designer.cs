@@ -189,6 +189,7 @@
             this.btnMembers.TabIndex = 1;
             this.btnMembers.Text = "Members";
             this.btnMembers.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnMembers.Click += new System.EventHandler(this.btnMembers_Click);
             // 
             // btnDashboard
             // 
