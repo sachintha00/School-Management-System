@@ -27,7 +27,12 @@ namespace HNCSchoolManagementSystem
 
         private void btnDashboard_Click(object sender, EventArgs e)
         {
-            SMDChildFormOpen.Open(new frmAdminDashboard(),pnlChangeWindow,Color.FromArgb(201, 201, 199));
+            SMDChildFormOpen.Open(new frmAdminDash(), pnlChangeWindow, Color.FromArgb(28, 32, 57));
+        }
+
+        private void frmAdminMain_Load(object sender, EventArgs e)
+        {
+            SMDChildFormOpen.Open(new frmAdminDash(), pnlChangeWindow, Color.FromArgb(28, 32, 57));
         }
     }
 }

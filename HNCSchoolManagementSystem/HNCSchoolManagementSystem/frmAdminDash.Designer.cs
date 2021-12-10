@@ -1,6 +1,6 @@
 ﻿namespace HNCSchoolManagementSystem
 {
-    partial class frmAdminDashboard
+    partial class frmAdminDash
     {
         /// <summary>
         /// Required designer variable.
@@ -29,9 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.elips = new Guna.UI.WinForms.GunaElipse(this.components);
-            this.drag1 = new Guna.UI.WinForms.GunaDragControl(this.components);
-            this.drag2 = new Guna.UI.WinForms.GunaDragControl(this.components);
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.guna2ShadowPanel4 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.gunaLabel13 = new Guna.UI.WinForms.GunaLabel();
@@ -59,13 +57,9 @@
             this.guna2ShadowPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // elips
+            // guna2Elipse1
             // 
-            this.elips.TargetControl = this;
-            // 
-            // drag1
-            // 
-            this.drag1.TargetControl = null;
+            this.guna2Elipse1.TargetControl = this;
             // 
             // gunaLabel1
             // 
@@ -73,10 +67,10 @@
             this.gunaLabel1.BackColor = System.Drawing.Color.Transparent;
             this.gunaLabel1.Font = new System.Drawing.Font("Segoe UI", 30F);
             this.gunaLabel1.ForeColor = System.Drawing.SystemColors.Control;
-            this.gunaLabel1.Location = new System.Drawing.Point(49, 48);
+            this.gunaLabel1.Location = new System.Drawing.Point(43, 46);
             this.gunaLabel1.Name = "gunaLabel1";
             this.gunaLabel1.Size = new System.Drawing.Size(239, 67);
-            this.gunaLabel1.TabIndex = 8;
+            this.gunaLabel1.TabIndex = 13;
             this.gunaLabel1.Text = "Dasboard";
             // 
             // guna2ShadowPanel4
@@ -88,14 +82,14 @@
             this.guna2ShadowPanel4.Controls.Add(this.gunaLabel16);
             this.guna2ShadowPanel4.Controls.Add(this.gunaLabel11);
             this.guna2ShadowPanel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(44)))), ((int)(((byte)(72)))));
-            this.guna2ShadowPanel4.Location = new System.Drawing.Point(332, 389);
+            this.guna2ShadowPanel4.Location = new System.Drawing.Point(326, 387);
             this.guna2ShadowPanel4.Name = "guna2ShadowPanel4";
             this.guna2ShadowPanel4.Radius = 3;
             this.guna2ShadowPanel4.ShadowColor = System.Drawing.Color.Black;
             this.guna2ShadowPanel4.ShadowDepth = 30;
             this.guna2ShadowPanel4.ShadowStyle = Guna.UI2.WinForms.Guna2ShadowPanel.ShadowMode.ForwardDiagonal;
             this.guna2ShadowPanel4.Size = new System.Drawing.Size(257, 209);
-            this.guna2ShadowPanel4.TabIndex = 4;
+            this.guna2ShadowPanel4.TabIndex = 9;
             // 
             // gunaLabel13
             // 
@@ -152,14 +146,14 @@
             this.guna2ShadowPanel3.Controls.Add(this.gunaLabel17);
             this.guna2ShadowPanel3.Controls.Add(this.gunaLabel4);
             this.guna2ShadowPanel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(44)))), ((int)(((byte)(72)))));
-            this.guna2ShadowPanel3.Location = new System.Drawing.Point(61, 389);
+            this.guna2ShadowPanel3.Location = new System.Drawing.Point(55, 387);
             this.guna2ShadowPanel3.Name = "guna2ShadowPanel3";
             this.guna2ShadowPanel3.Radius = 3;
             this.guna2ShadowPanel3.ShadowColor = System.Drawing.Color.Black;
             this.guna2ShadowPanel3.ShadowDepth = 30;
             this.guna2ShadowPanel3.ShadowStyle = Guna.UI2.WinForms.Guna2ShadowPanel.ShadowMode.ForwardDiagonal;
             this.guna2ShadowPanel3.Size = new System.Drawing.Size(257, 209);
-            this.guna2ShadowPanel3.TabIndex = 5;
+            this.guna2ShadowPanel3.TabIndex = 10;
             // 
             // gunaLabel8
             // 
@@ -216,14 +210,14 @@
             this.guna2ShadowPanel2.Controls.Add(this.gunaLabel15);
             this.guna2ShadowPanel2.Controls.Add(this.gunaLabel3);
             this.guna2ShadowPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(44)))), ((int)(((byte)(72)))));
-            this.guna2ShadowPanel2.Location = new System.Drawing.Point(332, 169);
+            this.guna2ShadowPanel2.Location = new System.Drawing.Point(326, 167);
             this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
             this.guna2ShadowPanel2.Radius = 3;
             this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black;
             this.guna2ShadowPanel2.ShadowDepth = 30;
             this.guna2ShadowPanel2.ShadowStyle = Guna.UI2.WinForms.Guna2ShadowPanel.ShadowMode.ForwardDiagonal;
             this.guna2ShadowPanel2.Size = new System.Drawing.Size(257, 209);
-            this.guna2ShadowPanel2.TabIndex = 6;
+            this.guna2ShadowPanel2.TabIndex = 11;
             // 
             // gunaLabel12
             // 
@@ -280,14 +274,14 @@
             this.guna2ShadowPanel1.Controls.Add(this.gunaLabel14);
             this.guna2ShadowPanel1.Controls.Add(this.gunaLabel2);
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(44)))), ((int)(((byte)(72)))));
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(61, 169);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(55, 167);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.Radius = 3;
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
             this.guna2ShadowPanel1.ShadowDepth = 30;
             this.guna2ShadowPanel1.ShadowStyle = Guna.UI2.WinForms.Guna2ShadowPanel.ShadowMode.ForwardDiagonal;
             this.guna2ShadowPanel1.Size = new System.Drawing.Size(257, 209);
-            this.guna2ShadowPanel1.TabIndex = 7;
+            this.guna2ShadowPanel1.TabIndex = 12;
             // 
             // gunaLabel10
             // 
@@ -335,22 +329,20 @@
             this.gunaLabel2.TabIndex = 3;
             this.gunaLabel2.Text = "Customer";
             // 
-            // frmAdminDashboard
+            // frmAdminDash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(32)))), ((int)(((byte)(57)))));
-            this.ClientSize = new System.Drawing.Size(1330, 888);
+            this.ClientSize = new System.Drawing.Size(1147, 739);
             this.Controls.Add(this.gunaLabel1);
             this.Controls.Add(this.guna2ShadowPanel4);
             this.Controls.Add(this.guna2ShadowPanel3);
             this.Controls.Add(this.guna2ShadowPanel2);
             this.Controls.Add(this.guna2ShadowPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmAdminDashboard";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmAdminMain";
-            this.Load += new System.EventHandler(this.frmAdminDashboard_Load);
+            this.Name = "frmAdminDash";
+            this.Text = "frmAdminDash";
             this.guna2ShadowPanel4.ResumeLayout(false);
             this.guna2ShadowPanel4.PerformLayout();
             this.guna2ShadowPanel3.ResumeLayout(false);
@@ -366,9 +358,7 @@
 
         #endregion
 
-        private Guna.UI.WinForms.GunaElipse elips;
-        private Guna.UI.WinForms.GunaDragControl drag1;
-        private Guna.UI.WinForms.GunaDragControl drag2;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel4;
         private Guna.UI.WinForms.GunaLabel gunaLabel13;

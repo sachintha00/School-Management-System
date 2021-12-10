@@ -47,6 +47,7 @@
             // 
             // elips
             // 
+            this.elips.Radius = 0;
             this.elips.TargetControl = this;
             // 
             // pnlMain
@@ -68,10 +69,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlChangeWindow.BackColor = System.Drawing.Color.Transparent;
-            this.pnlChangeWindow.Location = new System.Drawing.Point(283, 52);
+            this.pnlChangeWindow.Location = new System.Drawing.Point(290, 52);
             this.pnlChangeWindow.Name = "pnlChangeWindow";
             this.pnlChangeWindow.ShadowDecoration.Parent = this.pnlChangeWindow;
-            this.pnlChangeWindow.Size = new System.Drawing.Size(1044, 833);
+            this.pnlChangeWindow.Size = new System.Drawing.Size(1028, 824);
             this.pnlChangeWindow.TabIndex = 3;
             // 
             // btnClose
@@ -119,7 +120,7 @@
             this.btnReports.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.btnReports.HoverState.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReports.HoverState.ForeColor = System.Drawing.Color.LightGray;
-            this.btnReports.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.HoverState.Image")));
+            this.btnReports.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnReports.HoverState.Image")));
             this.btnReports.HoverState.Parent = this.btnReports;
             this.btnReports.Image = ((System.Drawing.Image)(resources.GetObject("btnReports.Image")));
             this.btnReports.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -147,7 +148,7 @@
             this.btnRegistration.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.btnRegistration.HoverState.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistration.HoverState.ForeColor = System.Drawing.Color.LightGray;
-            this.btnRegistration.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.HoverState.Image")));
+            this.btnRegistration.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnRegistration.HoverState.Image")));
             this.btnRegistration.HoverState.Parent = this.btnRegistration;
             this.btnRegistration.Image = ((System.Drawing.Image)(resources.GetObject("btnRegistration.Image")));
             this.btnRegistration.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -175,7 +176,7 @@
             this.btnMembers.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.btnMembers.HoverState.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMembers.HoverState.ForeColor = System.Drawing.Color.LightGray;
-            this.btnMembers.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.HoverState.Image")));
+            this.btnMembers.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnMembers.HoverState.Image")));
             this.btnMembers.HoverState.Parent = this.btnMembers;
             this.btnMembers.Image = ((System.Drawing.Image)(resources.GetObject("btnMembers.Image")));
             this.btnMembers.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -203,7 +204,7 @@
             this.btnDashboard.HoverState.FillColor = System.Drawing.Color.Transparent;
             this.btnDashboard.HoverState.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDashboard.HoverState.ForeColor = System.Drawing.Color.LightGray;
-            this.btnDashboard.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.HoverState.Image")));
+            this.btnDashboard.HoverState.Image = ((System.Drawing.Image)(resources.GetObject("btnDashboard.HoverState.Image")));
             this.btnDashboard.HoverState.Parent = this.btnDashboard;
             this.btnDashboard.Image = ((System.Drawing.Image)(resources.GetObject("btnDashboard.Image")));
             this.btnDashboard.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -236,6 +237,7 @@
             this.Name = "frmAdminMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmAdminMain";
+            this.Load += new System.EventHandler(this.frmAdminMain_Load);
             this.pnlMain.ResumeLayout(false);
             this.pnlSideMenu.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -249,11 +251,11 @@
         private Guna.UI2.WinForms.Guna2Panel pnlSideMenu;
         private Guna.UI.WinForms.GunaDragControl drag1;
         private Guna.UI.WinForms.GunaDragControl drag2;
-        private Guna.UI2.WinForms.Guna2ControlBox btnClose;
         private Guna.UI2.WinForms.Guna2Button btnDashboard;
-        private Guna.UI2.WinForms.Guna2Panel pnlChangeWindow;
         private Guna.UI2.WinForms.Guna2Button btnMembers;
         private Guna.UI2.WinForms.Guna2Button btnRegistration;
         private Guna.UI2.WinForms.Guna2Button btnReports;
+        private Guna.UI2.WinForms.Guna2Panel pnlChangeWindow;
+        private Guna.UI2.WinForms.Guna2ControlBox btnClose;
     }
 }

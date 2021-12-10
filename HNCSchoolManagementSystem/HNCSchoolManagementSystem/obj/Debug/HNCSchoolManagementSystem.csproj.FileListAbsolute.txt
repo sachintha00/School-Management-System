@@ -13,5 +13,5 @@ E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSc
 E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\obj\Debug\HNCSchoolManagementSystem.frmLogin.resources
 E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\obj\Debug\HNCSchoolManagementSystem.frmAdminMain.resources
 E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\bin\Debug\Bunifu_UI_v1.5.3.dll
-E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\obj\Debug\HNCSchoolManagementSystem.frmAdminDashboard.resources
 E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\bin\Debug\SMDLogic.dll
+E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\obj\Debug\HNCSchoolManagementSystem.frmAdminDash.resources

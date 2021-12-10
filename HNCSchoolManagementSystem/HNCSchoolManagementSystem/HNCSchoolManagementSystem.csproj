@@ -43,8 +43,9 @@
       <HintPath>..\..\..\..\..\PcWonderland.com_Guna_UI_Framework_Ultimate_2\Guna UI Framework Ultimate v2.0.0.1 Lib-Master\Guna.UI2.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
-    <Reference Include="SMDLogic">
-      <HintPath>..\..\..\..\DLL\SMDLogic.dll</HintPath>
+    <Reference Include="SMDLogic, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\SMDLogic.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -60,11 +61,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmAdminDashboard.cs">
+    <Compile Include="frmAdminDash.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmAdminDashboard.Designer.cs">
-      <DependentUpon>frmAdminDashboard.cs</DependentUpon>
+    <Compile Include="frmAdminDash.Designer.cs">
+      <DependentUpon>frmAdminDash.cs</DependentUpon>
     </Compile>
     <Compile Include="frmAdminMain.cs">
       <SubType>Form</SubType>
@@ -80,8 +81,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmAdminDashboard.resx">
-      <DependentUpon>frmAdminDashboard.cs</DependentUpon>
+    <EmbeddedResource Include="frmAdminDash.resx">
+      <DependentUpon>frmAdminDash.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmAdminMain.resx">
       <DependentUpon>frmAdminMain.cs</DependentUpon>
