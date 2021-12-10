@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAdminMembers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminMembers.Designer.cs">
+      <DependentUpon>frmAdminMembers.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAdminDash.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAdminMembers.resx">
+      <DependentUpon>frmAdminMembers.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAdminDash.resx">
       <DependentUpon>frmAdminDash.cs</DependentUpon>
     </EmbeddedResource>
