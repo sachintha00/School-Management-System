@@ -39,5 +39,10 @@ namespace HNCSchoolManagementSystem
         {
             SMDChildFormOpen.Open(new frmAdminMembers(), pnlChangeWindow, Color.FromArgb(28, 32, 57));
         }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
