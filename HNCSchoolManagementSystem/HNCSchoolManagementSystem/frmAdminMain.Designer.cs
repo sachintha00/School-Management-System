@@ -110,6 +110,7 @@
             // btnReports
             // 
             this.btnReports.BackColor = System.Drawing.Color.Transparent;
+            this.btnReports.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.btnReports.CheckedState.Parent = this.btnReports;
             this.btnReports.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnReports.CustomImages.Parent = this.btnReports;
@@ -138,6 +139,7 @@
             // btnRegistration
             // 
             this.btnRegistration.BackColor = System.Drawing.Color.Transparent;
+            this.btnRegistration.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.btnRegistration.CheckedState.Parent = this.btnRegistration;
             this.btnRegistration.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegistration.CustomImages.Parent = this.btnRegistration;
@@ -166,6 +168,7 @@
             // btnMembers
             // 
             this.btnMembers.BackColor = System.Drawing.Color.Transparent;
+            this.btnMembers.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.btnMembers.CheckedState.Parent = this.btnMembers;
             this.btnMembers.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMembers.CustomImages.Parent = this.btnMembers;
@@ -195,6 +198,9 @@
             // btnDashboard
             // 
             this.btnDashboard.BackColor = System.Drawing.Color.Transparent;
+            this.btnDashboard.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnDashboard.Checked = true;
+            this.btnDashboard.CheckedState.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDashboard.CheckedState.Parent = this.btnDashboard;
             this.btnDashboard.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDashboard.CustomImages.Parent = this.btnDashboard;
