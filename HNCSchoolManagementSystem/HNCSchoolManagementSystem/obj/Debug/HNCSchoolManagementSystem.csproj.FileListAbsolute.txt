@@ -16,3 +16,4 @@ E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSc
 E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\bin\Debug\SMDLogic.dll
 E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\obj\Debug\HNCSchoolManagementSystem.frmAdminDash.resources
 E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\obj\Debug\HNCSchoolManagementSystem.frmAdminMembers.resources
+E:\C# PROJECTS\Ama Akka\School-Management-System\HNCSchoolManagementSystem\HNCSchoolManagementSystem\obj\Debug\HNCSchoolManagementSystem.frmMembersStudents.resources
