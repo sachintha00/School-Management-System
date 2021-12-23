@@ -164,6 +164,7 @@
             this.btnRegistration.TabIndex = 2;
             this.btnRegistration.Text = "Registration";
             this.btnRegistration.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnRegistration.Click += new System.EventHandler(this.btnRegistration_Click);
             // 
             // btnMembers
             // 

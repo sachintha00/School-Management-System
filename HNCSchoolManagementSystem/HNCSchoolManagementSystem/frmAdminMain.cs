@@ -44,5 +44,10 @@ namespace HNCSchoolManagementSystem
         {
             Application.Exit();
         }
+
+        private void btnRegistration_Click(object sender, EventArgs e)
+        {
+            SMDChildFormOpen.Open(new frmAdminRegister(), pnlChangeWindow, Color.FromArgb(28, 32, 57));
+        }
     }
 }
